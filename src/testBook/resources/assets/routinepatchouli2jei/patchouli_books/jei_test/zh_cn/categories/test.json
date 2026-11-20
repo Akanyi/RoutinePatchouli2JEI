@@ -1,0 +1,6 @@
+{
+  "name": "JEI 联动测试",
+  "description": "用于验证跨章节查找和正文提及。",
+  "icon": "minecraft:book",
+  "sortnum": 0
+}

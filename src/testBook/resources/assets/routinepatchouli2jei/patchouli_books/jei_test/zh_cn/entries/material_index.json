@@ -1,0 +1,20 @@
+{
+  "name": "材料与注册名",
+  "icon": "minecraft:iron_ingot",
+  "category": "routinepatchouli2jei:test",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "铁锭是物品栏中的常用名称，完整注册 ID 为 minecraft:iron_ingot。$(br2)铁锭可以用于交易、冶炼成工具，或存放在远征物资箱中。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "红石粉可以在电路中传递信号。搜索本地化名称“红石粉”或完整 ID minecraft:redstone，应该能找到本条记录。$(br2)红石火把可以反转信号，拉杆则是简单的手动开关。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "绿宝石是村庄交易中常见的绿色代币。这里也写出了完整注册 ID minecraft:emerald，用于测试普通正文中的完整 ID 匹配。"
+    }
+  ]
+}

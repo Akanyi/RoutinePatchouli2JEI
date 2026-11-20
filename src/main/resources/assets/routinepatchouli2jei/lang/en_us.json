@@ -1,0 +1,9 @@
+{
+  "routinepatchouli2jei.bookmarked": "Added to JEI bookmarks.",
+  "routinepatchouli2jei.unbookmarked": "Removed from JEI bookmarks.",
+  "routinepatchouli2jei.cannot_bookmark": "JEI could not update this bookmark.",
+  "category.routinepatchouli2jei.patchouli.title": "Patchouli",
+  "gui.routinepatchouli2jei.chapter": "%s: %s",
+  "gui.routinepatchouli2jei.open_patchouli": "Open Patchouli entry",
+  "gui.routinepatchouli2jei.open_patchouli.tooltip": "Open the matching Patchouli chapter"
+}

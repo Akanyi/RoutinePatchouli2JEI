@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.lans.routinepatchouli2jei.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["BookRegistryMixin", "GuiBookMixin", "MinecraftMixin", "PageDoubleRecipeAccessor", "PageSpotlightAccessor", "PageWithTextAccessor"],
+  "injectors": {"defaultRequire": 1}
+}

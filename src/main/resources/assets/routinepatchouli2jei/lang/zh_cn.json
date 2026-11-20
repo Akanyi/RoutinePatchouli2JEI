@@ -1,0 +1,9 @@
+{
+  "routinepatchouli2jei.bookmarked": "已加入 JEI 书签。",
+  "routinepatchouli2jei.unbookmarked": "已从 JEI 书签移除。",
+  "routinepatchouli2jei.cannot_bookmark": "JEI 无法更新此书签。",
+  "category.routinepatchouli2jei.patchouli.title": "帕秋莉手册",
+  "gui.routinepatchouli2jei.chapter": "%s：%s",
+  "gui.routinepatchouli2jei.open_patchouli": "打开手册条目",
+  "gui.routinepatchouli2jei.open_patchouli.tooltip": "打开对应的帕秋莉手册章节"
+}

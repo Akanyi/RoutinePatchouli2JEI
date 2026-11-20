@@ -1,0 +1,21 @@
+{
+  "name": "Diamond Spotlight",
+  "icon": "minecraft:diamond",
+  "category": "routinepatchouli2jei:test",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:diamond",
+      "text": "A diamond is a bright, durable mineral used in advanced equipment. This spotlight is a structured item reference, so JEI should connect the diamond directly to this chapter.$(br2)Diamonds are rare below the surface and are usually found in small veins. Fortune can increase the number recovered from each ore block."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Field note: compare the words Diamond and diamonds with the exact registry identifier minecraft:diamond. Each form should lead back to this entry.$(br2)Keep one diamond as a reference sample before crafting the rest into tools or storage blocks."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:diamond_block"
+    }
+  ]
+}

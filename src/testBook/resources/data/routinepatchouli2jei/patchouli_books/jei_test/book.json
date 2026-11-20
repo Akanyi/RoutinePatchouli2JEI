@@ -1,0 +1,10 @@
+{
+  "name": "JEI Test Guide",
+  "landing_text": "Welcome to the integration field guide. These notes cover materials, recipes, identifiers, and ordinary prose. Search Diamond to compare several chapter links; search Oak Planks, Iron Ingot, Redstone Dust, Torch, or Bread to test other references.$(br2)Each chapter mixes short labels with longer passages so the same book can exercise Patchouli page navigation and JEI item lookup.",
+  "use_resource_pack": true,
+  "i18n": false,
+  "model": "routinepatchouli2jei:patchouli_guide",
+  "index_icon": "routinepatchouli2jei:textures/item/patchouli_guide.png",
+  "creative_tab": "minecraft:tools_and_utilities",
+  "show_progress": false
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Planks to Sticks",
+  "icon": "minecraft:oak_planks",
+  "category": "routinepatchouli2jei:test",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Oak Planks make a dependable camp material. Four boards can be arranged into sticks, while a full stack is useful for ladders, signs, and quick repairs.$(br2)This paragraph names Oak Planks in ordinary prose before the next page shows a real recipe."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stick"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Recipe note: the output is a stick, and the input is oak planks. Search either item to check which ingredients and results the chapter index associates with this page."
+    }
+  ]
+}

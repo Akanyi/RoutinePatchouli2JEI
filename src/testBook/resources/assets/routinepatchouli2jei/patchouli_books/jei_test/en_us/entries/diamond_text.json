@@ -1,0 +1,20 @@
+{
+  "name": "Diamond in Prose",
+  "icon": "minecraft:paper",
+  "category": "routinepatchouli2jei:test",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This chapter mentions Diamond only in ordinary prose, without a spotlight or recipe ingredient. The sample identifier is minecraft:diamond.$(br2)A careful catalog keeps its diamond beside the map, away from the wet ink and loose paper."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Diamonds are measured, wrapped, and recorded before they leave the survey camp. The word appears here as regular chapter text so prose matching can be checked separately from structured references."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "When the ledger says Diamond, it means the same familiar gem. Search it in JEI and this prose-only chapter should appear beside the spotlight chapter."
+    }
+  ]
+}

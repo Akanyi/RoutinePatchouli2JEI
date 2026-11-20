@@ -1,0 +1,20 @@
+{
+  "name": "木板合成木棍",
+  "icon": "minecraft:oak_planks",
+  "category": "routinepatchouli2jei:test",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "橡木木板适合搭建营地。四块木板可以制成木棍，也能用来制作梯子、告示牌和临时支架。$(br2)本段先在普通正文中提到橡木木板，下一页再展示实际配方。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stick"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "配方记录：产物是木棍，原料是橡木木板。分别搜索这两种物品，检查章节索引是否关联了输入和输出。"
+    }
+  ]
+}

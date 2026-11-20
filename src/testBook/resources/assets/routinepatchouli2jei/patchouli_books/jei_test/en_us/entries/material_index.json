@@ -1,0 +1,20 @@
+{
+  "name": "Materials and Identifiers",
+  "icon": "minecraft:iron_ingot",
+  "category": "routinepatchouli2jei:test",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Iron Ingot is the standard name used by the inventory. The exact identifier is minecraft:iron_ingot.$(br2)A clean iron ingot can be traded, smelted into a tool, or stored with the expedition supplies."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Redstone Dust carries a signal through a circuit. Search the readable name Redstone Dust or the identifier minecraft:redstone to find this note.$(br2)A redstone torch can invert a signal, while a lever provides a simple manual switch."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The emerald is a green trade token found in many village ledgers. Its identifier, minecraft:emerald, is included here as another full-ID prose match. Keep item names in sentences to test natural text lookup."
+    }
+  ]
+}

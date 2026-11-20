@@ -1,0 +1,49 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.141'
+}
+
+version = mod_version
+group = 'dev.lans.routinepatchouli2jei'
+base { archivesName = 'routinepatchouli2jei' }
+java { toolchain.languageVersion = JavaLanguageVersion.of(25) }
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://maven.blamejared.com' }
+}
+
+def patchouliJar = file(providers.gradleProperty('patchouli_jar').getOrElse(
+        '../moUnderSea/.gradle/local-mods/patchouli-neoforge-26.1-94.jar'))
+if (!patchouliJar.isFile()) {
+    throw new GradleException("Patchouli JAR missing at ${patchouliJar}; set -Ppatchouli_jar=<Patchouli JAR>")
+}
+
+def testBook = providers.gradleProperty('testBook').map { it.toBoolean() }.getOrElse(false)
+if (testBook) sourceSets.main.resources.srcDir 'src/testBook/resources'
+
+neoForge {
+    version = neo_version
+    mods { routinepatchouli2jei { sourceSet sourceSets.main } }
+    runs {
+        client { client() }
+    }
+}
+
+dependencies {
+    compileOnly files(patchouliJar)
+    runtimeOnly files(patchouliJar)
+    implementation "mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}"
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.named('jar', Jar) {
+    exclude 'data/routinepatchouli2jei/patchouli_books/jei_test/**'
+    exclude 'assets/routinepatchouli2jei/patchouli_books/jei_test/**'
+}
+tasks.named('processResources', ProcessResources) {
+    inputs.properties mod_version: mod_version, patchouli_version: patchouli_version, jei_version: jei_version
+    filesMatching('META-INF/neoforge.mods.toml') {
+        expand mod_version: mod_version, patchouli_version: patchouli_version, jei_version: jei_version
+    }
+}

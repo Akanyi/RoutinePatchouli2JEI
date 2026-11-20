@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MPL-2.0"
+[[mods]]
+modId="routinepatchouli2jei"
+version="${mod_version}"
+displayName="Routine Patchouli2JEI"
+authors="LANS"
+description='''Bridges Patchouli book item lookups and JEI, with direct links to every matching book entry.'''
+[[mixins]]
+config="routinepatchouli2jei.mixins.json"
+[[dependencies.routinepatchouli2jei]]
+modId="neoforge"
+type="required"
+versionRange="[26.1.2.112,)"
+side="CLIENT"
+[[dependencies.routinepatchouli2jei]]
+modId="minecraft"
+type="required"
+versionRange="[26.1.2]"
+side="CLIENT"
+[[dependencies.routinepatchouli2jei]]
+modId="patchouli"
+type="required"
+versionRange="[${patchouli_version},)"
+ordering="AFTER"
+side="CLIENT"
+[[dependencies.routinepatchouli2jei]]
+modId="jei"
+type="required"
+versionRange="[${jei_version},30)"
+ordering="AFTER"
+side="CLIENT"

@@ -1,0 +1,20 @@
+{
+  "name": "正文提及钻石",
+  "icon": "minecraft:paper",
+  "category": "routinepatchouli2jei:test",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "本章只在普通叙述中提到钻石，不包含聚光页或配方原料。记录中的完整注册 ID 是 minecraft:diamond。$(br2)目录员会把钻石样本放在地图旁边，远离墨水和潮湿的纸张。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "每颗钻石离开营地之前都要称量、包好并记入清单。本段刻意只使用普通章节正文，方便与结构化物品引用分开测试。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "记录上写着“钻石”时，指的仍是同一种宝石。在 JEI 中搜索它，本章应与聚光展示章节同时出现。"
+    }
+  ]
+}

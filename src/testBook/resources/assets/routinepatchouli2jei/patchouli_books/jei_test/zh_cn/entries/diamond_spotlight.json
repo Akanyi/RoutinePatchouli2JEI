@@ -1,0 +1,21 @@
+{
+  "name": "钻石聚光页",
+  "icon": "minecraft:diamond",
+  "category": "routinepatchouli2jei:test",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:diamond",
+      "text": "钻石坚硬而明亮，常用于制作高级装备。本页使用结构化聚光物品引用，JEI 应将钻石关联到本章节。$(br2)钻石矿石通常生成在地下的小矿脉中。使用时运附魔可以提高每块矿石的掉落数量。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "勘探记录：正文中分别写出“钻石”和注册 ID minecraft:diamond，用来检查本地化名称与完整物品 ID 的匹配。$(br2)制作工具或储物块之前，可以先留下一颗钻石作为样本。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:diamond_block"
+    }
+  ]
+}

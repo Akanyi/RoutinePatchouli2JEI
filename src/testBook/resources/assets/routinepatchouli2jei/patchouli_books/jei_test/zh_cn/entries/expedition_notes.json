@@ -1,0 +1,20 @@
+{
+  "name": "远征营地记录",
+  "icon": "minecraft:torch",
+  "category": "routinepatchouli2jei:test",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "天黑前在小路旁放置火把，方便标记路线，也能让远处的工作台保持可见。$(br2)营地箱中还应准备面包、备用镐和一组圆石。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "长途勘探时可以携带面包。圆石适合铺设水面上的落脚点，玻璃则能让队员在避雨时观察天气。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "每次路线勘察结束后，把备用火把和面包放回物资箱。这些物品名称放在完整句子中，用于测试中文正文匹配。"
+    }
+  ]
+}

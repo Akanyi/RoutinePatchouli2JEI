@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "routinepatchouli2jei:item/patchouli_guide"
+  }
+}

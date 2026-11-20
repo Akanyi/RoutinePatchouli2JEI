@@ -1,0 +1,20 @@
+{
+  "name": "Expedition Camp Notes",
+  "icon": "minecraft:torch",
+  "category": "routinepatchouli2jei:test",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Set a Torch beside the trail before nightfall. A torch marks the route and keeps the workbench visible from a distance.$(br2)The camp chest should also contain Bread, a spare pickaxe, and a stack of Cobblestone."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Bread is easy to carry on a long survey. Cobblestone makes a stable footing over water, and Glass lets the crew watch the weather without leaving shelter."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "At the end of each route, return the spare Torch and Bread to the supply crate. These familiar item names appear in full sentences to exercise ordinary English name matching."
+    }
+  ]
+}

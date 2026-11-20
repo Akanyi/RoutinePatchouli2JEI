@@ -1,0 +1,6 @@
+{
+  "name": "JEI Integration Tests",
+  "description": "Lookup targets shared by chapters and mentioned in prose.",
+  "icon": "minecraft:book",
+  "sortnum": 0
+}
